@@ -1,0 +1,31 @@
+Salary,Department,IsFullTime,PerformanceRating,Comments,ProjectCount,Bonus,SickDays,OvertimeHours,TrainingHours,VacationDays,MaritalStatus
+111185.3,Engineering,FALSE,Average,1,TRUE,9979.7,6,42.8,22,2,Single
+63949.4,Finance,TRUE,Excellent,,,3401,3,20.2,,7,Married
+79214.5,Finance,TRUE,Average,Needs Improvement,Five,9789.5,8,44.4,,13,Married
+86636.2,Sales,TRUE,Average,Needs Improvement,5,4699.3,0,42.5,,23,
+,Finance,TRUE,Good,Needs Improvement,5,1297.5,7,46.8,27.6,17,Married
+128517.6,Finance,TRUE,Good,Needs Improvement,TRUE,4105.6,6,39.3,28.4,14,Divorced
+69967.4,Finance,TRUE,Excellent,,Five,6709.2,1,33.4,35.2,21,Single
+101423.4,Sales,TRUE,Average,,,7126.3,7,29,13.1,22,Single
+,Finance,,Average,,,5778.4,0,18.6,22.5,1,Single
+,Engineering,TRUE,Average,Outstanding,TRUE,,8,,25,26,Single
+110754.5,Sales,FALSE,Excellent,Needs Improvement,,5976,,48.7,31.9,9,Divorced
+67052.4,Engineering,TRUE,Excellent,2.5,Five,,1,14.2,6.5,1,Married
+56505.2,Sales,FALSE,Good,Outstanding,,1727.7,6,15.3,39.8,25,Single
+144888.6,Finance,FALSE,Excellent,,,4326.9,9,24.3,21.4,16,Married
+146563.2,Engineering,FALSE,,1,,3179.4,2,22.4,14.8,7,Divorced
+130839.7,Sales,TRUE,Average,Outstanding,5,8228.3,6,49.7,35.9,0,Divorced
+80461.4,HR,TRUE,Excellent,2.5,,5232.7,9,,31.2,8,Divorced
+59767.2,Finance,TRUE,Average,1,5,9850.8,8,0.9,38.4,10,Single
+118423.3,Sales,,Average,1,Five,4589.4,3,24.7,16.6,21,Married
+,HR,FALSE,,1,5,8347.9,0,8.9,24.3,,Married
+62203.8,Sales,,Excellent,Outstanding,Five,8185.1,1,18.3,25,6,Married
+99517.7,HR,TRUE,Average,2.5,,2356.5,0,37.2,39.3,,Divorced
+53438.9,Finance,TRUE,Average,1,,5573.8,4,36,7.6,9,Single
+140932,Engineering,TRUE,Average,Needs Improvement,Five,7262.3,4,15.4,15.7,22,
+75878,HR,TRUE,Good,1,TRUE,8725.2,6,27.1,11.7,25,Divorced
+116252.2,Sales,FALSE,Good,1,Five,3933.6,8,25.4,14.4,2,Married
+,Finance,TRUE,Good,Outstanding,TRUE,2982.2,8,31.8,22,17,Divorced
+102006.8,HR,FALSE,Excellent,Outstanding,5,7400.3,2,12.5,18,24,Married
+104671,Sales,TRUE,Good,2.5,5,8285.5,2,29.5,18.8,23,Single
+68485.4,Sales,FALSE,Excellent,Needs Improvement,5,4138,2,48.9,34.5,12,Married
