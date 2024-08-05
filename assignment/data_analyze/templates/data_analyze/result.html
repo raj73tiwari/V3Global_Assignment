@@ -1,0 +1,36 @@
+{% extends 'data_analyze/base.html' %} {% load static %} 
+{{% block body %}
+    
+
+
+<div class="container">
+    <h1 class="text-center m-4 p-4">Data Analysis Results</h1>
+    
+    <h2>First Few Rows</h2>
+    <div class="table-responsive">
+        {{ df_head|safe }}
+    </div>
+    
+    <h2>Summary Statistics</h2>
+    <div class="table-responsive ">
+        {{ summary_stats|safe }}
+    </div>
+    
+    <h2>Missing Values</h2>
+    <div class="table-responsive ">
+        {{ missing_values|safe }}
+    </div>
+
+    <h2 style="margin-top: 30px; margin-bottom: -10px;">Histograms</h2>
+    <div class="row">
+        {% for col, plot in plots.items %}
+            <div class="col-md-6 p-4">
+                <h5>{{ col }}</h5>
+                <img src="{{ plot }}" alt="Histogram for {{ col }}" class="img-fluid">
+            </div>
+        {% endfor %}
+    </div>
+</div>
+
+
+{% endblock %}}

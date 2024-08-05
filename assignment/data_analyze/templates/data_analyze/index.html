@@ -1,0 +1,55 @@
+{% extends 'data_analyze/base.html' %} {% load static %} {% block body %}
+
+<div class="container p-4">
+    <h1 class="text-center">Upload CSV File</h1>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+
+        <div class="mb-6 p-4 m-4">
+            <label class="form-form-label form-form-label-2">
+                Upload File
+            </label>
+
+            <div class="form-mb-5 form-file-input">
+                <input type="file" name="file" id="file"  onchange="showName()"/>
+                
+                    <div>
+                        <span class="form-drop-file"> Drop files here </span>
+                        <span class="form-or"> Or </span>
+                        <span class="form-browse"> Browse </span>
+                    </div>
+                
+            </div>
+
+            <div class="form-file-list form-mb-5">
+                <div class="form-file-item">
+                    <span class="form-file-name" id="display"> Please upload .csv file ! </span>
+
+                </div>
+            </div>
+
+
+            <div>
+                <button class="form-btn w-full" type="submit">Analyze File</button>
+            </div>
+        </div>
+        
+        
+    </form>
+</div>
+<script>
+    const showName= function(){
+        console.log('jgagdja')
+        var inp =document.getElementById('file');
+        var out =document.getElementById('display')
+        if (inp.files && inp.files.length > 0) {
+            out.innerHTML = inp.files[0].name; 
+        } else {
+            out.innerHTML = 'No file selected'; 
+        }
+
+    }
+</script>
+
+
+{% endblock %}

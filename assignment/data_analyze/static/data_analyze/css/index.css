@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+
+body {
+  font-family: "Open Sans";
+  font-size: 16px;
+  color: #f8f8f8;
+  background-color: #03131a;
+  font-size: 14px;
+  line-height: 20px;
+}
+.dark {
+  /* background: #110f16; */
+  background-image: radial-gradient(circle, transparent 50%, rgba(55, 16, 101, 0.2));
+  background: #031927;
+}
+.light {
+  background: #f3f5f7;
+}
+a,
+a:hover {
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+#pageHeaderTitle {
+  margin: 2rem 0;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+
+/* Navbar */
+
+.navbar {
+  z-index: 50;
+  padding: 15px 30px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #011016f7;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #f8f8f8;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #92daec;
+  
+}
+
+.navbar-nav{
+  margin-left: 1rem;
+}
+
+.navbar .container-fluid {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar .navbar-brand{
+  font-size: 1.75rem;
+  font-weight: 900;
+ 
+}
+
+
+
+.form-mb-5 {
+  margin-bottom: 20px;
+}
+.form-pt-3 {
+  padding-top: 12px;
+}
+
+
+.form-form-label {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  color: #468CFF;
+  margin-bottom: 12px;
+}
+.form-form-label-2 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.form-form-input {
+  width: 100%;
+  padding: 12px 24px;
+  border-radius: 6px;
+  border: 1px solid #e0e0e0;
+  background: white;
+  font-weight: 500;
+  font-size: 16px;
+  color: #6b7280;
+  outline: none;
+  resize: none;
+}
+.form-form-input:focus {
+  border-color: #6a64f1;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+.form-btn {
+  text-align: center;
+  font-size: 16px;
+  border-radius: 6px;
+  padding: 14px 32px;
+  border: none;
+  font-weight: 600;
+  background-color: #6a64f1;
+  color: white;
+  cursor: pointer;
+}
+.form-btn:hover {
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+.form--mx-3 {
+  margin-left: -12px;
+  margin-right: -12px;
+}
+.form-px-3 {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.flex {
+  display: flex;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.w-full {
+  width: 100%;
+}
+
+.form-file-input input {
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.form-file-input label {
+  position: relative;
+  border: 1px dashed #e0e0e0;
+  border-radius: 6px;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48px;
+  text-align: center;
+  cursor: pointer;
+}
+.form-file-input  {
+  position: relative;
+  border: 1px dashed #e0e0e0;
+  border-radius: 6px;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48px;
+  text-align: center;
+}
+.form-drop-file {
+  display: block;
+  font-weight: 600;
+  color: #468CFF;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.form-or {
+  font-weight: 500;
+  font-size: 16px;
+  color: #6b7280;
+  display: block;
+  margin-bottom: 8px;
+}
+.form-browse {
+  font-weight: 500;
+  font-size: 16px;
+  color: #468CFF;
+  display: inline-block;
+  padding: 8px 28px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
+
+.form-file-list {
+  border-radius: 6px;
+  background: #f5f7fb;
+  padding: 16px 32px;
+}
+
+.form-file-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-file-name {
+  font-weight: 500;
+  font-size: 16px;
+  color: #03131A;
+  padding-right: 12px;
+}
+
+
+
+table {
+	border-collapse: collapse;
+	overflow: hidden;
+	
+}
+
+th,
+td {
+	padding: 15px;
+	background-color: rgba(255,255,255,0.2);
+	color: #fff;
+}
+
+th {
+	text-align: left;
+}
+
+thead {
+	th {
+		background-color: #55608f;
+	}
+}
+
+tbody {
+	tr {
+		&:hover {
+			background-color: rgba(255,255,255,0.3);
+		}
+	}
+	td {
+		position: relative;
+		&:hover {
+			&:before {
+				content: "";
+				position: absolute;
+				left: 0;
+				right: 0;
+				top: -9999px;
+				bottom: -9999px;
+				background-color: rgba(255,255,255,0.2);
+				z-index: -1;
+			}
+		}
+	}
+}
+
+
+h2{
+  margin-top: 30px;
+  color: #468CFF;
+  margin-bottom: 12px;
+}
